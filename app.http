@@ -1,0 +1,19 @@
+//API 1
+
+POST http://localhost:3000/login/
+Content-Type: application/json
+
+{
+    "username":"christopher_phillips",
+    "password": "christy@123"
+};
+
+
+
+POST http://localhost:3000/make-login-request/
+Content-Type: application/json
+
+{
+    "username":"christopher_phillips",
+    "password": "christy@123"
+};
